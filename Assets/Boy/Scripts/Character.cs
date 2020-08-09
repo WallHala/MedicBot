@@ -46,12 +46,12 @@ public class Character : MonoBehaviour {
 	void Awake () {
 
 		// to store all of the body parts
-		hairGroup = transform.FindChild("hairGroup");
-		upbodyGroup = transform.FindChild("upbodyGroup");
-		downGroup = transform.FindChild("downBodyGroup");
-		glassGroup = transform.FindChild("glassGroup");
-        eyesGroup = transform.FindChild("eyesGroup");
-        shoeGroup = transform.FindChild("shoeGroup");
+		hairGroup = transform.Find("hairGroup");
+		upbodyGroup = transform.Find("upbodyGroup");
+		downGroup = transform.Find("downBodyGroup");
+		glassGroup = transform.Find("glassGroup");
+        eyesGroup = transform.Find("eyesGroup");
+        shoeGroup = transform.Find("shoeGroup");
 	}
 	
 	void Start() {
